@@ -1,0 +1,77 @@
+.aside{
+    position: fixed;
+    right: 30px;
+    top: 30%;
+}
+.aside ul li{
+    color: white;
+    font-size: 18px;
+    width: 50px;
+    background:#121212;
+    margin-top: 20px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    list-style-type: none;
+    background-color: gold;
+}
+.aside ul li i{
+    z-index: 1;
+}
+.l1_h6 , .l2_h6,.l4_h6,.l5_h6{
+    position: absolute;
+
+    right: 28px;
+    display: flex;
+    justify-content: center;
+    display: none;
+    align-items: center;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    margin-top: 8px;
+    background-color: gold;
+    z-index: 0;
+    height: 50px;
+    width: 100px;
+}
+.l3_h6{
+    position: absolute;
+    right: 28px;
+    display: flex;
+    justify-content: center;
+    display: none;
+    align-items: center;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    margin-top: 8px;
+    background-color: gold;
+    z-index: 0;
+    height: 50px;
+    width: 120px;
+}
+
+.aside ul li:hover{
+    .l1_h6{
+        transition: 1s;
+        display: flex;
+        
+    }
+    .l2_h6{
+        transition: 1s;
+        display: flex;
+    }
+    .l3_h6{
+        transition: 1s;
+        display: flex;
+    }
+    .l4_h6{
+        transition: 1s;
+        display: flex;
+    }
+    .l5_h6{
+        transition: 1s;
+        display: flex;
+    }
+}
