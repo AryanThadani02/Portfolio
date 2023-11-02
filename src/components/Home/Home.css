@@ -1,0 +1,69 @@
+.home .bg_yellow{
+    background-color: var(--main-primary-color);
+    position: fixed;
+    height: 200%;
+    width: 100%;
+    transform: rotate(-15deg);
+    left: -83%;
+    top: -50%;
+    z-index: 0;
+}
+.home .bg{
+    border-radius: 30px;
+    left: 40px;
+    box-shadow: 0 0 10px rgba(0,0,0,.9);
+    overflow: hidden;
+    padding: 0;
+    height: 45vh;
+}
+.home .home_img{
+    height: 100%;
+    width: 101%;
+}
+.home .text{
+    display: flex;
+    align-items: center;
+    height: 85vh;
+}
+
+.home .home_text{
+    margin-left: 40%;
+    color: var(--main-primary-color);
+    font-size: 50px;
+}
+.home .h5{
+    line-height: 30px !important;
+}
+.home .button{
+    overflow: hidden;
+    display: inline-block;
+    line-height: 1.4;
+    border-radius: 35px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-align: center;
+    cursor: pointer;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    transition: all .25s ease-in-out;
+    text-transform: uppercase;
+    text-decoration: none!important;
+    position: relative;
+    z-index: 1;
+    padding: 16px 35px 16px 35px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+    background-color: transparent;
+    outline: none!important;
+    cursor: pointer!important;
+    border: 1px solid var(--main-primary-color);
+}
+
+.button:hover  {
+    transition: all .25s ease-in-out;
+    background-color: var(--main-primary-color);
+}
+
