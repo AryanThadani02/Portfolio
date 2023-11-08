@@ -1,11 +1,11 @@
-.home .bg_yellow{
+.bg_yellow{
     background-color: var(--main-primary-color);
-    position: fixed;
+    position: fixed;    
     height: 200%;
     width: 100%;
     transform: rotate(-15deg);
-    left: -83%;
-    top: -50%;
+    left: -85%;
+    bottom: -40%;
     z-index: 0;
 }
 .home .bg{
@@ -16,9 +16,11 @@
     padding: 0;
     height: 45vh;
 }
-.home .home_img{
-    height: 100%;
-    width: 101%;
+.home_img{
+    height: 300px;
+    width: 400px;
+    display: flex;
+    z-index: 1;
 }
 .home .text{
     display: flex;

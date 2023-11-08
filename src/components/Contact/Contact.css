@@ -38,6 +38,14 @@
 }
 .send_message{
     border-radius: 20px;
+
+}
+.send_message:focus{
+    /* border: none; */
+    box-shadow: none;
+}
+.send_message:hover{
+    color: black!important;
 }
 .facebook{
     color: white;
