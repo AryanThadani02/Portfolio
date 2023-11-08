@@ -65,5 +65,6 @@
 .button:hover  {
     transition: all .25s ease-in-out;
     background-color: var(--main-primary-color);
+    color: black;
 }
 

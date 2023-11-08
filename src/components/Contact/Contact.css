@@ -46,10 +46,14 @@
     border-radius: 50%;
 }
 .facebook:hover{
-    background: gold;
+    background: var(--main-primary-color);
 }
 @media  screen and (max-width:992px) {
     .form_col{
         margin-top: 40px;
     }
+}
+input:focus{
+    border: none !important;
+    box-shadow: none !important;
 }

@@ -15,7 +15,7 @@
     justify-content: center;
     border-radius: 50%;
     list-style-type: none;
-    background-color: gold;
+    background-color: var(--main-primary-color);
 }
 .aside ul li i{
     z-index: 1;
@@ -31,7 +31,7 @@
     border-top-left-radius: 30px;
     border-bottom-left-radius: 30px;
     margin-top: 8px;
-    background-color: gold;
+    background-color: var(--main-primary-color);
     z-index: 0;
     height: 50px;
     width: 100px;
@@ -46,7 +46,7 @@
     border-top-left-radius: 30px;
     border-bottom-left-radius: 30px;
     margin-top: 8px;
-    background-color: gold;
+    background-color: var(--main-primary-color);
     z-index: 0;
     height: 50px;
     width: 120px;
@@ -56,22 +56,32 @@
     .l1_h6{
         transition: 1s;
         display: flex;
-        
+        color: black;
+        font-weight: 700;
     }
     .l2_h6{
         transition: 1s;
         display: flex;
+        color: black;
+        font-weight: 700;
+
     }
     .l3_h6{
         transition: 1s;
         display: flex;
+        color: black;
+        font-weight: 700;
     }
     .l4_h6{
         transition: 1s;
         display: flex;
+        color: black;
+        font-weight: 700;
     }
     .l5_h6{
         transition: 1s;
         display: flex;
+        color: black;
+        font-weight: 700;
     }
 }

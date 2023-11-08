@@ -24,7 +24,7 @@
     font-size: 56px;
     font-weight: 900!important;
     color: #fff;
-    left: 50px;
+    left: 25px;
     top: 46px!important;
 
     position: absolute;
@@ -33,7 +33,7 @@
     top: 15px;
 }
 .title span{
-    color: #ffb400;
+    color: var(--main-primary-color);
 }
 @media screen and (max-width:515px) {
     .title{
