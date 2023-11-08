@@ -7,8 +7,8 @@ function Navbar() {
         <div className="container ">
             <div className="row ">
                 <div className='backgrounddiv '>
-                <span className="backgroundtext  ">RESUME <h1 className="title">
-                    ABOUT <span>ME</span>
+                <span className="backgroundtext">works<h1 className="title" style={{letterSpacing:"-2px"}}>
+                  my <span>portfolio</span>
                 </h1></span>
                 
                 </div>

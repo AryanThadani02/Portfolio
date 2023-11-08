@@ -1,7 +1,9 @@
 import React from 'react'
 import './Home.css'
+import { Router } from 'react-router-dom'
 
 function Home() {
+    
     return (
         <div className="home">
             <div className="bg_yellow"></div>

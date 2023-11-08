@@ -6,7 +6,7 @@ function Contact() {
     return (
         <>
             <Navbar/>
-            <div className="container mb-5">
+            <div className="container mb-5 contact">
                 <div className="row text-light">
                     <div className="col-lg-4 col-12">
                         <h4 className='fw-bold mb-3'>
@@ -19,18 +19,18 @@ function Contact() {
                             <i  class="fa-solid fa-map me-3" ></i>
                             <div>
                             <span>ADDRESS POINT</span>
-                            <div>123 Stree New York City , United States Of America 750065.</div>
+                            <div>Jodhpur , Rajasthan , India , 342008.</div>
                             </div>
                         </p>
                         <p className='mail d-flex mb-4'>
                             <i class="fa-solid fa-envelope-open me-4" ></i>
                             <div><span>MAIL ME</span>
-                            <div>aryan@gmail.com</div></div>
+                            <div>aryanthadani0@gmail.com</div></div>
                         </p>
                         <p className='call d-flex mt-3'>
                             <i class="fa-solid fa-phone-square me-4" ></i>
                             <div><span>CALL ME</span>
-                            <div> +1234567890</div></div>
+                            <div> +91 7014089510</div></div>
                         </p>
                         <div className='row'>
                             <a class="btn facebook " href="#" role="button"><i class="fa-brands fa-facebook-f"></i></a>
