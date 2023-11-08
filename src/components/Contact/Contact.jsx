@@ -42,17 +42,17 @@ function Contact() {
                     <div className="col-lg-8 col-12 mb-4 form_col ">
                         <form action="" className='form'>
                             <div className="row">
-                                <div className="col-6 my-4" > <input type="text" className='name' name='name' placeholder='YOUR NAME' required /></div>
-                                <div className="col-6 my-4"> <input type="email" className='email' name='email' placeholder='YOUR EMAIL' required /></div>
+                                <div className="col-6 my-4" > <input type="text" className='name text-light' name='name' placeholder='YOUR NAME' required  autoComplete='off'/></div>
+                                <div className="col-6 my-4"> <input type="email" className='email text-light' name='email' placeholder='YOUR EMAIL' required autoComplete='off'/></div>
                             </div>
                             <div className="row mb-4">
                                 <div className="col-12">
-                                    <input type="text" className='subject' name='subject' placeholder='YOUR SUBJECT' required />
+                                    <input type="text" className='subject text-light ' name='subject' placeholder='YOUR SUBJECT' required />
                                 </div>
                             </div>
                             <div className="row">
                                 <div className="col-12">
-                                    <textarea rows="7" cols="5" className='message' name='message' placeholder='YOUR MESSAGE'></textarea>
+                                    <textarea rows="7" cols="5" className='message text-light' name='message' placeholder='YOUR MESSAGE'></textarea>
                                 </div>
                             </div>
                         </form>

@@ -1,6 +1,7 @@
 .aside{
     position: fixed;
     right: 30px;
+    transition: 1s!important;
     top: 30%;
 }
 .aside ul li{
@@ -9,6 +10,7 @@
     width: 50px;
     background:#121212;
     margin-top: 20px;
+    transition: 1s!important;
     height: 50px;
     display: flex;
     align-items: center;
@@ -22,7 +24,7 @@
 }
 .l1_h6 , .l2_h6,.l4_h6,.l5_h6{
     position: absolute;
-
+    transition: 1s!important;
     right: 28px;
     display: flex;
     justify-content: center;
@@ -54,7 +56,6 @@
 
 .aside ul li:hover{
     .l1_h6{
-        transition: 1s;
         display: flex;
         color: black;
         font-weight: 700;
