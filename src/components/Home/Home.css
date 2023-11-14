@@ -1,72 +1,38 @@
-.bg_yellow{
-    background-color: var(--main-primary-color);
-    position: fixed;    
-    height: 200%;
-    width: 100%;
-    transform: rotate(-15deg);
-    left: -85%;
-    bottom: -40%;
-    z-index: 0;
-}
 .home .bg{
     border-radius: 30px;
-    left: 40px;
+    /* left: 40px; */
     box-shadow: 0 0 10px rgba(0,0,0,.9);
     overflow: hidden;
-    padding: 0;
-    height: 45vh;
+    /* padding: 0; */
 }
-.home_img{
-    height: 300px;
-    width: 400px;
-    display: flex;
-    z-index: 1;
+.home .row>*{
+    padding: 0 !important;
+    margin: 0;
 }
-.home .text{
-    display: flex;
-    align-items: center;
-    height: 85vh;
+.home .row{
+    margin: 0;
 }
 
-.home .home_text{
-    margin-left: 40%;
-    color: var(--main-primary-color);
-    font-size: 50px;
-}
-.home .h5{
-    line-height: 30px !important;
-}
-.home .button{
-    overflow: hidden;
-    display: inline-block;
-    line-height: 1.4;
-    border-radius: 35px;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-    text-align: center;
-    cursor: pointer;
-    vertical-align: middle;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    user-select: none;
-    transition: all .25s ease-in-out;
-    text-transform: uppercase;
-    text-decoration: none!important;
-    position: relative;
-    z-index: 1;
-    padding: 16px 35px 16px 35px;
-    font-size: 15px;
-    font-weight: 600;
-    color: #fff;
-    background-color: transparent;
-    outline: none!important;
-    cursor: pointer!important;
-    border: 1px solid var(--main-primary-color);
-}
-
-.button:hover  {
-    transition: all .25s ease-in-out;
+.home .button:hover  {
+    
     background-color: var(--main-primary-color);
-    color: black;
+    color: #000;
 }
-
+.home{
+    background-image: url(../../../public/homeBg.png);
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    /* width: 100vh; */
+}
+.home_name{
+    color: var(--main-primary-color);
+    font-size: 44px;
+} 
+.home .button{
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid var(--main-primary-color);
+    transition: all .5s ease-in-out;
+}
