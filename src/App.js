@@ -8,7 +8,6 @@ import Contact from './components/Contact/Contact';
 import Portfolio from './components/Portfolio/Portfolio';
 import Services from './components/Services/Services';
 import Sidebar2 from './components/Sidebar/Sidebar2';
-import About from './components/About/About';
 
 
 function App() {
@@ -21,7 +20,6 @@ function App() {
         <Route path='/contact' element={<Contact/>}></Route>
         <Route path='/portfolio' element={<Portfolio/>}></Route>
         <Route path='/service' element={<Services/>}></Route>
-        <Route path='/about' element={<About/>}></Route>
       </Routes>
     </Router>
       <Sidebar2/>
