@@ -10,8 +10,8 @@ function Home() {
                 </div>
                 <div className="col-lg-6 text-light mx-auto text-start ">
                     <div className="home_text ps-5">
-                        <div className='fs-1 fw-bold'>
-                            <span className='home_name position-relative'><span className='position-absolute ' style={{ left: "-50px", bottom: "16px" }}>__</span>I'M ARYAN THADANI.</span><br />
+                        <div className='fs-1 fw-bold ms-5'>
+                            <span className='home_name position-relative '><span className='position-absolute ' style={{ left: "-50px", bottom: "16px" }}>__</span>I'M ARYAN THADANI.</span><br />
                             <span className='home_name text-light'>FRONT-END DEVELOPER</span>
                         </div>
                         <div className="home_para text-justify fs-5 mt-4">
