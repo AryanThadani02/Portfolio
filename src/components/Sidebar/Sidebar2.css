@@ -1,10 +1,12 @@
-.aside{
-    position: fixed;
-    right: 30px;
+.asid{
+    /* position: fixed; */
+    /* right: 30px; */
     transition: 1s!important;
-    top: 30%;
+    display: none;
+    /* top: 30%; */
+    /* bottom: 10%; */
 }
-.aside ul li{
+.l1,.l2,.l3,.l4,.l5{
     color: white;
     font-size: 18px;
     width: 50px;
@@ -19,7 +21,7 @@
     list-style-type: none;
     background-color: var(--main-primary-color);
 }
-.aside ul li i{
+.l1 i{
     z-index: 1;
 }
 .l1_h6 , .l2_h6,.l4_h6,.l5_h6{
@@ -54,7 +56,7 @@
     width: 120px;
 }
 
-.aside ul li:hover{
+.asid ul li:hover{
     .l1_h6{
         display: flex;
         color: black;
@@ -86,9 +88,11 @@
         font-weight: 700;
     }
 }
+
 @media screen and (max-width:992px) {
-    .aside{
-        display: none;
+    .asid{
+        display: block;
+
     }
 
 }

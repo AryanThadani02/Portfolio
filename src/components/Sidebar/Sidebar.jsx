@@ -5,7 +5,7 @@ function Sidebar() {
   return (
     <>
     <div  className='aside'>
-        <ul>
+        <ul className='ul'>
             <li className='l1'><h6 className='l1_h6'>HOME</h6><i class="fa-solid fa-house text-dark" ></i>
               
             </li>
