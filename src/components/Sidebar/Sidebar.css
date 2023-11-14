@@ -4,7 +4,7 @@
     transition: 1s!important;
     top: 30%;
 }
-.aside ul li{
+.l1,.l2,.l3,.l4,.l5{
     color: white;
     font-size: 18px;
     width: 50px;
@@ -19,7 +19,7 @@
     list-style-type: none;
     background-color: var(--main-primary-color);
 }
-.aside ul li i{
+.l1 i,.l2 i,.l3 i,.l4 i,.l5 i{
     z-index: 1;
 }
 .l1_h6 , .l2_h6,.l4_h6,.l5_h6{
@@ -54,7 +54,7 @@
     width: 120px;
 }
 
-.aside ul li:hover{
+.l1:hover,.l2:hover,.l3:hover,.l4:hover,.l5:hover{
     .l1_h6{
         display: flex;
         color: black;

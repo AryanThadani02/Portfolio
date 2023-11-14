@@ -13,16 +13,17 @@ import Sidebar2 from './components/Sidebar/Sidebar2';
 function App() {
   return (
     <>
-    <Sidebar/>
     <Router>
+    <Sidebar/>
       <Routes>
         <Route path='/' element={<Home/>}></Route>
         <Route path='/contact' element={<Contact/>}></Route>
         <Route path='/portfolio' element={<Portfolio/>}></Route>
-        <Route path='/service' element={<Services/>}></Route>
+        <Route path='/services' element={<Services/>}></Route>
+        {/* <Route path='/about' element={<About/>}></Route> */}
       </Routes>
-    </Router>
       <Sidebar2/>
+    </Router>
     </>
   );
 }
