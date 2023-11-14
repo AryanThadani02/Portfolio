@@ -8,6 +8,7 @@ import Contact from './components/Contact/Contact';
 import Portfolio from './components/Portfolio/Portfolio';
 import Services from './components/Services/Services';
 import Sidebar2 from './components/Sidebar/Sidebar2';
+import About from './components/About/About';
 
 
 function App() {

@@ -27,11 +27,11 @@ const About = () => {
                                     </div>
                                     <div className="col-8 my-2">
                                         <div className="row">
-                                            <div className="col-6">
+                                            <div className="col-md-6 col-sm-12 mb-sm-3">
                                                 <span className='left'>First Name:</span>
                                                 <span className='right'> Aryan</span>
                                             </div>
-                                            <div className="col-6 ">
+                                            <div className="col-md-6 col-sm-12">
                                                 <span className='left'>Last Name:</span>
                                                 <span className='right'> Thadani</span>
                                             </div>
@@ -39,11 +39,11 @@ const About = () => {
                                     </div>
                                     <div className="col-8 my-2">
                                         <div className="row">
-                                            <div className="col-6">
+                                            <div className="col-md-6 col-sm-12 mb-sm-3">
                                                 <span className='left'>Age:</span>
                                                 <span className='right'> 21 Years</span>
                                             </div>
-                                            <div className="col-6">
+                                            <div className="col-md-6 col-sm-12">
                                                 <span className='left'>Nationality:</span>
                                                 <span className='right'> Indian</span>
                                             </div>
@@ -51,11 +51,11 @@ const About = () => {
                                     </div>
                                     <div className="col-8 my-2">
                                         <div className="row">
-                                            <div className="col-6">
+                                            <div className="col-md-6 col-sm-12 mb-sm-3">
                                                 <span className='left'>Freelance:</span>
                                                 <span className='right' style={{ color: "green" }}> Available</span>
                                             </div>
-                                            <div className="col-6">
+                                            <div className="col-md-6 col-sm-12">
                                                 <span className='left'>Address:</span>
                                                 <span className='right'> Jodhpur, Rajasthan</span>
                                             </div>
@@ -63,11 +63,11 @@ const About = () => {
                                     </div>
                                     <div className="col-8 my-2">
                                         <div className="row">
-                                            <div className="col-6">
+                                            <div className="col-md-6 col-sm-12 mb-sm-3">
                                                 <span className='left'>Phone:</span>
                                                 <span className='right'> +91 7014089510</span>
                                             </div>
-                                            <div className="col-6">
+                                            <div className="col-md-6 col-sm-12">
                                                 <span className='left'>Email:</span>
                                                 <span className='right'> Aryan@123gmail.com
                                                 </span>
@@ -128,7 +128,7 @@ const About = () => {
                                     </div>
                                 </div> */}
 
-                                <div className="row my-5 ">
+                                <div className="row my-5 my-sm-2">
                                     <div className="row ">
                                         <div className="col-8 ">
                                             <h3>Experience and Education</h3>
