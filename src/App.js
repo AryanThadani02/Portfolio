@@ -7,6 +7,7 @@ import { BrowserRouter as Router,Routes,Route } from 'react-router-dom';
 import Contact from './components/Contact/Contact';
 import Portfolio from './components/Portfolio/Portfolio';
 import Services from './components/Services/Services';
+import Sidebar2 from './components/Sidebar/Sidebar2';
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
         <Route path='/service' element={<Services/>}></Route>
       </Routes>
     </Router>
+      <Sidebar2/>
     </>
   );
 }
