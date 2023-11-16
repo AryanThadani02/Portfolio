@@ -5,6 +5,7 @@
     display: none;
     /* top: 30%; */
     /* bottom: 10%; */
+    background:#121212;
 }
 .l1,.l2,.l3,.l4,.l5{
     color: white;
@@ -20,6 +21,7 @@
     border-radius: 50%;
     list-style-type: none;
     background-color: var(--main-primary-color);
+    text-decoration: none;
 }
 .l1 i{
     z-index: 1;

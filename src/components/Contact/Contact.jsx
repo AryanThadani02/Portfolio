@@ -45,10 +45,10 @@ function Contact() {
                                         <div> +91 7014089510</div></div>
                                 </p>
                                 <div className='row'>
-                                    <a class="btn facebook " href="#" role="button"><i class="fa-brands fa-facebook-f"></i></a>
-                                    <a class="btn facebook mx-3" href="#" role="button"><i class="fa-brands fa-telegram"></i></a>
-                                    <a class="btn facebook " href="#" role="button"><i class="fa-brands fa-instagram"></i></a>
-                                    <a class="btn facebook ms-3 " href="#" role="button"><i class="fa-brands fa-whatsapp"></i></a>
+                                    <a class="btn facebook " href="https://www.facebook.com/profile.php?id=100006233594859" role="button"><i class="fa-brands fa-facebook-f"></i></a>
+                                    <a class="btn facebook mx-3" href="https://web.telegram.org/k/" role="button"><i class="fa-brands fa-telegram"></i></a>
+                                    <a class="btn facebook " href="https://www.instagram.com/aryan_thadani_02/" role="button"><i class="fa-brands fa-instagram"></i></a>
+                                    <a class="btn facebook ms-3 " href="https://web.whatsapp.com/" role="button"><i class="fa-brands fa-whatsapp"></i></a>
                                 </div>
                             </div>
                             <div className="col-lg-8 col-12 mb-4 form_col ">

@@ -16,7 +16,7 @@
 }
 
 .About .btn {
-    border: 1px solid #ffb400;
+    border: 1px solid var(--main-primary-color);
     border-radius: 25px;
     color: white;
     padding: 10px 19px;
@@ -25,7 +25,7 @@
 
 .About .circle {
     padding: 5%;
-    background-color: #ffb400;
+    background-color: var(--main-primary-color);
     border-radius: 50%;
     width: 50px;
     height: 50px;
@@ -42,7 +42,7 @@
     z-index: 1;
     border-radius: 50%;
     color: #fff;
-    background-color: #ffb400;
+    background-color: var(--main-primary-color);
 }
 
 .About .icon_right {
@@ -55,7 +55,7 @@
     z-index: 1;
     border-radius: 50%;
     color: #fff;
-    background-color: #ffb400;
+    background-color: var(--main-primary-color);
 }
 
 .About .separator {

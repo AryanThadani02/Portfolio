@@ -23,7 +23,7 @@ const About = () => {
                             <div className="container-fluid">
                                 <div className="row block_1 separator">
                                     <div className="col-8 mb-3">
-                                        <h4 className='fw-bold'>PERSONAL <span style={{ color: "#ffb400" }} >INFOS</span></h4>
+                                        <h4 className='fw-bold'>PERSONAL <span style={{ color: "gold" }} >INFOS</span></h4>
                                     </div>
                                     <div className="col-8 my-2">
                                         <div className="row">

@@ -74,19 +74,19 @@
 }
 .address i{
     font-size: 36px;
-    color: gold;
+    color: var(--main-primary-color);
 }
 .mail i{
     font-size: 36px;
-    color: gold;
+    color: var(--main-primary-color);
 }
 .call i{
     font-size: 36px;
-    color: gold;
+    color: var(--main-primary-color);
 }
 .send_message{
     border-radius: 20px;
-
+    transition: all .5s ease-in-out;
 }
 .send_message:focus{
     /* border: none; */
